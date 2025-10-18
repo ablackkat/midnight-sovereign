@@ -1,0 +1,53 @@
+/* Midnight Sovereign - Waybar Theme */
+@define-color bg #0f0b1f;
+@define-color fg #e8e4f0;
+@define-color accent1 #7851a9;
+@define-color accent2 #9966cc;
+@define-color deep #5b2c91;
+@define-color dark #3d1f5c;
+@define-color bright #b794f4;
+@define-color subtle #b8a5d6;
+
+* {
+  font-family: JetBrainsMono Nerd Font, monospace;
+  font-size: 12pt;
+  font-weight: 500;
+  border: none;
+  color: @fg;
+  transition: all 0.3s ease;
+}
+
+window#waybar {
+  background: @bg;
+  color: @fg;
+  border-bottom: 2px solid @accent1;
+}
+
+#workspaces button {
+  background: @dark;
+  color: @fg;
+  border-radius: 6px;
+  margin: 2px 4px;
+  padding: 3px 10px;
+}
+
+#workspaces button.focused {
+  background: @accent2;
+  color: @fg;
+}
+
+#workspaces button:hover {
+  background: @bright;
+  color: @bg;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio {
+  background: transparent;
+  padding: 0 10px;
+}
+
+#tray {
+  background: @dark;
+  border-radius: 8px;
+  padding: 0 8px;
+}
