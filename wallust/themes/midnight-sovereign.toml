@@ -1,0 +1,13 @@
+[colors]
+background = "#0f0b1f"
+foreground = "#e8e4f0"
+accent1 = "#7851a9"
+accent2 = "#9966cc"
+deep = "#5b2c91"
+dark = "#3d1f5c"
+bright = "#b794f4"
+subtle = "#b8a5d6"
+
+[options]
+threshold = 30
+blend = 0.4
