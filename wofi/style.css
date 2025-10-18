@@ -1,0 +1,39 @@
+/* Midnight Sovereign - Wofi Theme */
+window {
+  margin: 0px;
+  background-color: #0f0b1f;
+  border: 2px solid #7851a9;
+  border-radius: 8px;
+}
+
+#input {
+  margin: 8px;
+  border: none;
+  background-color: #3d1f5c;
+  color: #e8e4f0;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#entry {
+  background-color: transparent;
+  color: #e8e4f0;
+}
+
+#entry:selected {
+  background-color: #9966cc;
+  color: #e8e4f0;
+}
+
+#text:selected {
+  color: #e8e4f0;
+}
+
+#scroll {
+  background-color: transparent;
+}
+
+#entry:hover {
+  background-color: #b794f4;
+  color: #0f0b1f;
+}
